@@ -1,11 +1,13 @@
-from dhooks import webhook, Embed
+from dhooks import Webhook, Embed
 
 hook = Webhook("https://discord.com/api/webhooks/980121784298930247/4qaZGlBlXIRKEaBB6QDU2jC3yF23DFgaEwa6n11nGjPtaezScZZszeBqvyHV_6Kqtjbz")
+
 embed = Embed(
-description=`This is the **description** of the embed :smiley:`,
+description=`This is the **description** of the embed! :smiley:`,
 color=0x5CDBF0,
-timestamp=`now`# sets the timestamp to current time
+timestamp=`now` # sets the timestamp to current time
 )
+
 image1 = `https://i.imgur.com/rdm3W9t.png`
 image2 = `https://i.imgur.com/f1LOr4q.png`
 
